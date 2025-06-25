@@ -17,7 +17,6 @@ function Signup() {
         copySignupInfo[name]=value;
         setsignupinfo(copySignupInfo);
     }
-    console.log('SignupInfo -> ',signupinfo)
     const handleSignup = async (e) =>{
         e.preventDefault();
         const{name ,email,password} = signupinfo;
