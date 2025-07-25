@@ -25,7 +25,7 @@ function Login() {
             return handleError('email and Password require');
         }
         try{
-            const url = "https://login-signup-page-sandy.vercel.app/auth/login";
+            const url = "https://login-signup-page-beta-six.vercel.app/auth/login";
             const response = await fetch(url,{
                 method: "POST",
                 headers:{
